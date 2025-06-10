@@ -1,0 +1,124 @@
+*
+{
+    margin:0;
+}
+header,nav
+{
+  background-color:black;
+  color:white;
+  text-align: center;
+
+padding: 30px;
+ 
+}
+nav
+{
+   display:flex;
+   justify-content:space-around; 
+   align-items:last baseline;
+}
+a
+{
+    text-decoration:none;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+
+}
+
+.cards
+{
+    padding:2px;
+    display:flex;
+    justify-content: space-around;
+   flex-wrap: wrap;
+   
+   
+}
+.card
+{
+     box-shadow:0 0 10px black;
+     border-radius:10px ;
+     overflow:hidden;
+}
+  strong
+  {
+font-size: large;
+font-weight: 600;
+  }   
+
+
+.card:hover
+{
+    transform:scale(1.05);
+}
+.actual-price
+{
+    text-decoration:line-through;
+}
+h2
+{
+    padding:10px;
+}
+button
+{
+    background-color:rgb(29, 184, 255);
+   padding:5px;
+   display:block;
+   margin:10px auto 0;
+   font-weight: bold;
+   cursor: pointer;
+   color:white;
+   border-radius:5px;
+}
+button:hover
+{
+    background-color:rgb(8, 239, 8);
+}
+.mobiles
+{
+display:flex;
+justify-content:space-around;
+flex:wrap;
+}
+h1
+{
+    padding: 50px;
+}
+.mobile
+{
+     box-shadow:0 0 10px black;
+     border-radius:10px ;
+     overflow:hidden;
+
+}
+.mobile:hover
+{
+    transform:scale(1.05);
+}
+.kitchenware
+{
+    display:flex;
+    justify-content:space-around;
+}
+.cook
+{
+    box-shadow:0 0 10px black;
+     border-radius:10px ;
+     overflow:hidden;
+}
+.cook:hover
+{
+    transform:scale(1.05);
+}
+.decoritems
+{
+    display:flex;
+    justify-content:space-around;
+}
+.decor
+{
+    box-shadow: 0 0 10px;
+    border-radius:10px;
+    overflow: hidden;
+}
